@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+
+function pulalinha(){
+	
+	document.write("<br><hr><br>");
+}
+
+function mostra(frase){
+
+	document.write("<big>" + frase + "</big>");
+	pulalinha();
+}
+
+var limite = parseInt(prompt("Entre com a data limite desejada: "));
+
+var anoCopa = 1930;
+
+while(anoCopa <= limite){
+
+	mostra("Teve copa nos anos de: " + anoCopa);
+	
+	anoCopa = anoCopa + 4;
+}
+
+
+</script>

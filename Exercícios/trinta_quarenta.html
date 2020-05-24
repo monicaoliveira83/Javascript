@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<script>
+
+
+function pulalinha(){
+	
+	document.write("<br><br>");
+}
+
+function mostra(frase){
+
+	document.write("<big>" + frase + "</big>");
+	pulalinha();
+}
+
+
+var inicio = 30;
+
+while(inicio <= 40){
+
+	if (inicio == 33 || inicio == 37) {
+
+		inicio ++;
+
+	}
+
+else {
+
+	mostra("Números aleatórios: " + inicio);
+	
+	inicio ++;
+
+}
+}
+
+mostra("FIM")
+
+
+</script>
